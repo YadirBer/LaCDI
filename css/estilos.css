@@ -1,0 +1,219 @@
+/* ************* Variables CSS ************* */
+:root {
+  --cPrincipal: #0567a4;
+  --cSecundario: #7d7d7d;
+  --cContraste: #900606;
+  --cEnfasis: #ff9635;
+  --cTexto: #000;
+  --cFondo: #f2f2f2;
+  --texto: "Roboto", sans-serif;
+}
+
+/* ************* Reset ************* */
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+/* ************* UI Components ************* */
+article {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+body {
+  background-color: var(--cFondo);
+  color: var(--cTexto);
+  font-family: var(--texto);
+  font-size: 16px;
+}
+button.hamburger {
+  visibility: hidden;
+}
+footer {
+  background-color: var(--cSecundario);
+  color: var(--cTexto);
+  height: 9.7em;
+}
+footer p {
+  text-align: center;
+}
+h1 {
+  text-indent: -99999px;
+  width: 0;
+  height: 0;
+}
+h2 {
+  font-family: var(--texto);
+  color: var(--cPrincipal);
+}
+h3 {
+  font-family: var(--texto);
+  color: var(--cEnfasis);
+  font-size: 1.95em;
+}
+header img {
+  width: 100%;
+  height: 2em;
+}
+img.slide {
+  height: auto;
+  width: 100%;
+}
+/* Menú - Hamburguesa */
+.btn-menu {
+  text-decoration: none;
+  color: var(--cFondo);
+}
+.direction {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu > ul {
+  list-style: none;
+}
+.padding1 {
+  padding: 0.5em;
+}
+
+.ancla {
+  position: relative;
+  top: -4em;
+}
+.aling-top {
+  margin-bottom: 4.5em;
+}
+
+.border-cp {
+  border-color: var(--cPrincipal);
+}
+.btn-up {
+  background: url(../img/btn-arriba.png) no-repeat right/2.5em;
+  height: 2.5em;
+  margin: 1em;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 2.5em;
+}
+.card-m0 {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+.center {
+  margin: auto;
+}
+.color-btn-cp {
+  color: #fff;
+  background-color: var(--cPrincipal);
+  border-color: var(--cPrincipal);
+}
+.color-btn-ce {
+  color: #fff;
+  background-color: var(--cEnfasis);
+  border-color: var(--cEnfasis);
+}
+.color-btn-cc {
+  color: #fff;
+  background-color: var(--cContraste);
+  border-color: var(--cContraste);
+}
+.color-text-enfasis {
+  color: var(--cEnfasis);
+}
+.desktop {
+  display: none;
+}
+
+.icon-redes img {
+  height: auto;
+  width: 2em;
+}
+.img-redonda {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+}
+.movile {
+  display: block;
+}
+.redes {
+  background-color: var(--cFondo);
+}
+.spotify {
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-card-s {
+  font-size: 0.7em;
+}
+.text-card-t {
+  font-size: 0.9em;
+}
+.youtube {
+  height: 12em;
+  width: 100%;
+}
+
+/* ************* Utilities ************* */
+.bg-c {
+  background-color: #0567a4;
+}
+
+.shadow- {
+  -webkit-box-shadow: 5px 7px 11px 1px #000;
+  box-shadow: 5px 7px 11px 1px #000;
+}
+
+/* ************* Media Cueries ************* */
+@media (max-width: 1200px) {
+  footer {
+    height: 15vh;
+  }
+  .aling-bottom {
+    height: 7.5em;
+    margin-bottom: 0;
+  }
+  .desktop {
+    display: block;
+  }
+  .flex-row- {
+    display: flex;
+    flex: row;
+  }
+  button.hamburger {
+    visibility: visible;
+  }
+  .direction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    transition: all 500ms ease-in-out;
+    transform: translate(0, -100%);
+  }
+  .menu.is-active {
+    transform: translate(0, 0);
+  }
+  .icon-redes img {
+    height: auto;
+    width: 2.5em;
+  }
+  .m-t-5 {
+    margin-top: 5em;
+  }
+  .movile {
+    display: none;
+  }
+  /* .navbar-top {
+    position: relative;
+    top: 0;
+  } */
+  .reverse {
+    flex-flow: row-reverse;
+  }
+}
