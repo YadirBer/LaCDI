@@ -53,6 +53,7 @@ h3 {
   font-size: 1.95em;
 }
 header img {
+  margin-left: 1em;
   width: 100%;
   height: 2em;
 }
@@ -60,16 +61,18 @@ img.slide {
   height: auto;
   width: 100%;
 }
+
 .header {
-  position: sticky;
-  top: 0;
-  left: 0;
+  position: fixed;
   padding: 0.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--cPrincipal);
   z-index: 999;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 /* Menú - Hamburguesa */
 .btn-menu {
@@ -109,6 +112,9 @@ img.slide {
   text-decoration: none;
   color: var(--cFondo);
   transition: all 0.5s ease-out;
+}
+.menu li:hover {
+  background-color: var(--cEnfasis);
 }
 .menu-style {
   list-style: none;
@@ -169,7 +175,7 @@ img.slide {
 
 .icon-redes img {
   height: auto;
-  width: 2em;
+  width: 3em;
 }
 .img-redonda {
   height: 150px;
@@ -190,6 +196,9 @@ img.slide {
 }
 
 /* ************* Utilities ************* */
+.link-active {
+  border-bottom: thin solid var(--cFondo);
+}
 .center {
   margin: auto;
 }
@@ -247,7 +256,11 @@ img.slide {
   button.hamburger {
     visibility: visible;
   }
-
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
   .icon-redes img {
     height: auto;
     width: 2.5em;
@@ -265,4 +278,33 @@ img.slide {
   .reverse {
     flex-flow: row-reverse;
   }
+  /* Menú - Hamburguesa */
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu,
+  .menu ul {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.7em;
+    background-color: transparent;
+    transform: translate(0, 0);
+  }
+
+  .menu a {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--cFondo);
+  }
+
+  .menu li:hover {
+    background-color: var(--cEnfasis);
+    border-radius: 5%;
+    /*     background-color: transparent; */
+  }
+  /*****************************************************/
 }
