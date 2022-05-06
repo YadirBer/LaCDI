@@ -1,5 +1,5 @@
 import { hamburgerMenu } from "./components/hamburguer.js";
-/* import { activeLink } from "./components/active-link.js"; */
+import { darkMode } from "./components/dark_mode.js";
 
-/* activeLink(".menu a"); */
 hamburgerMenu(".menu", ".hamburger");
+darkMode(".theme-button", ".dark-theme");

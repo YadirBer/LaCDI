@@ -1,11 +1,11 @@
 /* ************* Variables CSS ************* */
 :root {
-  --cPrincipal: #0567a4;
-  --cSecundario: #7d7d7d;
-  --cContraste: #900606;
-  --cEnfasis: #ff9635;
-  --cTexto: #000;
-  --cFondo: #f2f2f2;
+  --cPrincipal: #005186;
+  --cSecundario: #555555;
+  --cContraste: #370202;
+  --cEnfasis: #814d1c;
+  --cTexto: #f2f2f2;
+  --cFondo: #323232;
   --texto: "Roboto", sans-serif;
 }
 
@@ -110,7 +110,7 @@ img.slide {
   font-size: 2rem;
   transition: all 0.5s ease-out;
   text-decoration: none;
-  color: var(--cFondo);
+  color: var(--cTexto);
   transition: all 0.5s ease-out;
 }
 .menu li:hover {
@@ -120,15 +120,7 @@ img.slide {
   list-style: none;
 }
 /* Termina el menú - Hamburguesa */
-/* Buttom Theme */
-.theme-button {
-  background-color: var(--cPrincipal);
-}
-.theme-button img {
-  height: 2.5em;
-  width: auto;
-}
-/* Termina - Buttom Theme */
+
 .padding1 {
   padding: 0.5em;
 }
@@ -204,9 +196,13 @@ img.slide {
 }
 
 /* ************* Utilities ************* */
-.link-active {
-  border-bottom: thin solid var(--cFondo);
+.bg-c {
+  background-color: #0567a4;
 }
+.bg-c-fondo {
+  background-color: var(--cFondo);
+}
+
 .center {
   margin: auto;
 }
@@ -228,11 +224,8 @@ img.slide {
 .color-text-enfasis {
   color: var(--cEnfasis);
 }
-.bg-c {
-  background-color: #0567a4;
-}
-.bg-c-fondo {
-  background-color: var(--cFondo);
+.link-active {
+  border-bottom: thin solid var(--cFondo);
 }
 .shadow- {
   -webkit-box-shadow: 5px 7px 11px 1px #000;
@@ -306,7 +299,7 @@ img.slide {
     padding: 0 1rem;
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--cFondo);
+    color: var(--cTexto);
   }
 
   .menu li:hover {
