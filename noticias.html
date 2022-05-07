@@ -9,6 +9,14 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/hamburguer.css" />
-    <link rel="stylesheet" href="css/estilos.css" />
+    <link id="style" rel="stylesheet" href="css/estilos.css" />
     <title>Noticias | LaCDi</title>
   </head>
 
@@ -29,6 +37,12 @@
           alt="Laboratorio de Creación Digital"
         />
       </a>
+      <!-- Buttom theme -->
+      <button class="theme-button">
+        <span id="mode" class="bg-c material-icons-two-tone">
+          light_mode
+        </span>
+      </button>
       <!-- Menu de Hamburguesa -->
       <button class="btn-menu hamburger hamburger--spin" type="button">
         <span class="hamburger-box">
@@ -39,12 +53,12 @@
       <nav class="menu">
         <ul class="menu-style">
           <li><a href="lacdi.html">LaCDi</a></li>
-          <li><a href="investigación.html">Investigación</a></li>
+          <li><a href="investigacion.html">Investigación</a></li>
           <li><a href="vinculacion.html">Vinculación</a></li>
           <li><a href="creacion-digital.html">Creación Digital</a></li>
           <li><a href="exposiciones.html">Exposiciones</a></li>
           <li><a href="eventos.html">Eventos</a></li>
-          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="noticias.html" class="link-active">Noticias</a></li>
         </ul>
       </nav>
     </header>
