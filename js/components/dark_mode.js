@@ -1,21 +1,20 @@
 export function darkMode(button, classDark) {
   const d = document,
-    $button = d.querySelector(button),
+    $button = d.getElementById("mode"),
     $style = d.getElementById("style"),
     ls = localStorage;
 
   let moon = "dark_mode",
-    sun = "light_mode",
-    dark = classDark.slice(1);
+    sun = "light_mode";
 
   function lightMode() {
-    $style.classList.remove(dark);
+    $style.href = "css/estilos.css";
     $button.innerHTML = moon;
     ls.setItem("themeUI", "light");
   }
 
   function darkMode() {
-    $style.classList.add(dark);
+    $style.href = "css/dark.css";
     $button.innerHTML = sun;
     ls.setItem("themeUI", "dark");
   }

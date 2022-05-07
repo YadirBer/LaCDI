@@ -120,7 +120,15 @@ img.slide {
   list-style: none;
 }
 /* Termina el menú - Hamburguesa */
-
+/* Buttom Theme */
+.theme-button {
+  background-color: var(--cPrincipal);
+}
+.theme-button img {
+  height: 2.5em;
+  width: auto;
+}
+/* Termina - Buttom Theme */
 .padding1 {
   padding: 0.5em;
 }
@@ -197,7 +205,7 @@ img.slide {
 
 /* ************* Utilities ************* */
 .bg-c {
-  background-color: #0567a4;
+  background-color: var(--cPrincipal);
 }
 .bg-c-fondo {
   background-color: var(--cFondo);
