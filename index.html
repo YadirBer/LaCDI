@@ -40,7 +40,7 @@
       </a>
       <!-- Buttom theme -->
       <button class="theme-button">
-        <span id="mode" class="bg-c material-icons-two-tone">
+        <span id="mode" class="bg-c s-4 material-icons-two-tone">
           light_mode
         </span>
       </button>
@@ -121,21 +121,14 @@
               <span class="visually-hidden">Next</span>
             </button>
           </article>
-          <article class="container col-12">
+          <article id="descripcion" class="container col-12">
             <h2>¿Qué es Lacdi?</h2>
-            <p>
-              El Laboratorio de Creación Digital, por sus siglas LaCDi es un
-              espacio digital dedicado a la investigación, análisis, vinculación
-              y creación de contenido transdisciplinar. Contenido abierto a todo
-              público, pero desde un rigor académico sustentado en las
-              estructuras del pensamiento visual y digital.
-            </p>
           </article>
         </article>
       </section>
       <hr />
       <section class="container">
-        <article class="row">
+        <article id="eventos" class="row">
           <h2>Últimos Eventos</h2>
           <section class="card mx-auto mt-4" style="max-width: 360px;">
             <article class="row card-m0 border">
@@ -211,38 +204,12 @@
       <hr />
       <section class="container">
         <h2 id="multimedia">Múltimedia</h2>
-        <article class="row mt-5">
-          <!-- Videos de Youtube -->
-          <article class="col-12 col-md-4 mx-auto">
-            <iframe
-              class="youtube"
-              src="https://www.youtube.com/embed/pcNwgnuWsts"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </article>
-          <article class="col-12 col-md-4">
-            <iframe
-              class="youtube"
-              src="https://www.youtube.com/embed/Q0g9LIf7CW4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </article>
-          <article class="col-12 col-md-4">
-            <iframe
-              class="youtube"
-              src="https://www.youtube.com/embed/_48x8Yhwoo8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </article>
+        <!-- Videos de Youtube -->
+        <article id="video" class="row mt-5">
+          <article
+            id="video-creacion"
+            class="col-12 col-md-4 mx-auto"
+          ></article>
         </article>
         <!-- Podcast de Órbita 21 -->
         <article class="row">
@@ -327,5 +294,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/lacdi.js" type="module"></script>
+    <script src="js/contenido.js"></script>
   </body>
 </html>

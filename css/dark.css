@@ -239,6 +239,9 @@ img.slide {
   -webkit-box-shadow: 5px 7px 11px 1px #000;
   box-shadow: 5px 7px 11px 1px #000;
 }
+.s-4 {
+  font-size: 45px;
+}
 .text-card-s {
   font-size: 0.7em;
 }

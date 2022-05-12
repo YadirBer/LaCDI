@@ -204,6 +204,9 @@ img.slide {
 }
 
 /* ************* Utilities ************* */
+.altura {
+  height: 15em;
+}
 .link-active {
   border-bottom: thin solid var(--cFondo);
 }
@@ -234,6 +237,15 @@ img.slide {
 .bg-c-fondo {
   background-color: var(--cFondo);
 }
+.img-card {
+  max-width: 100%;
+  height: 240px;
+  /*  object-fit: contain; */
+}
+.s-4 {
+  font-size: 45px;
+}
+
 .shadow- {
   -webkit-box-shadow: 5px 7px 11px 1px #000;
   box-shadow: 5px 7px 11px 1px #000;
@@ -276,13 +288,11 @@ img.slide {
   .m-t-5 {
     margin-top: 5em;
   }
+
   .movile {
     display: none;
   }
-  /* .navbar-top {
-    position: relative;
-    top: 0;
-  } */
+
   .reverse {
     flex-flow: row-reverse;
   }
@@ -311,8 +321,7 @@ img.slide {
 
   .menu li:hover {
     background-color: var(--cEnfasis);
-    border-radius: 5%;
-    /*     background-color: transparent; */
+    border-radius: 3%;
   }
   /*****************************************************/
 }

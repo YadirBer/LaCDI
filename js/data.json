@@ -1,0 +1,42 @@
+{
+  "indexUltimos": [
+    {
+      "title": "Panel Académico - México un País que Envejece",
+      "descripcion": "Expertos analizan las necesidades, problemáticas y miradas en torno al envejecimiento de la población.",
+      "poster": "/img/mexico.png",
+      "mas": "https://www.youtube.com/watch?v=ZwUTQD4TTGw"
+    },
+    {
+      "title": "Black Mirror Gala",
+      "descripcion": "Alumnos y docentes dialogan sobre la relevancia de tecnología en su disciplina",
+      "poster": "/img/cartel-gala.jpeg",
+      "mas": "https://www.youtube.com/watch?v=kU69ZR7pzcA"
+    },
+    {
+      "title": "Cliché 21 - Las formas del miedo",
+      "descripcion": "Exposición de los alumnos de comunicación",
+      "poster": "/img/cliche.png",
+      "mas": "https://www.instagram.com/colectivo_cliche21/"
+    }
+  ],
+  "investigacion": [
+    {
+      "title": "Panel Académico - México un País que Envejece",
+      "descripcion": "Expertos analizan las necesidades, problemáticas y miradas en torno al envejecimiento de la población.",
+      "poster": "/img/mexico.png",
+      "mas": "https://www.youtube.com/watch?v=ZwUTQD4TTGw"
+    },
+    {
+      "title": "Primer Coloquio - Complejidad, Ciudad y Visualidades",
+      "descripcion": "Alumnos de Comunicación exponen sus proyectos de titutalción",
+      "poster": "/img/codicam.png",
+      "mas": "https://www.youtube.com/watch?v=lyYHeFwV0Dc"
+    },
+    {
+      "title": "Imagen, Espacio y Comunicación",
+      "descripcion": "Charla mpartida por el Dr. Gustavo Garduño Oropeza (UAEMex) a los estudiantes de la Licenciatura en Comunicación CUSXXI",
+      "poster": "/img/codicam.png",
+      "mas": "https://www.youtube.com/watch?v=c8YgZZ3AlIE"
+    }
+  ]
+}
